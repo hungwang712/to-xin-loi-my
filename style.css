@@ -1,0 +1,72 @@
+/* Cài đặt font chữ đẹp từ Google Fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f3ec78, #af4261);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.headline {
+    font-size: 36px;
+    font-weight: 600;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.apology-message {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.forgive-button {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+}
+
+.forgive-button:hover {
+    background-color: #2980b9;
+}
+
+#forgiveness-message {
+    font-size: 22px;
+    margin-top: 20px;
+    color: #2ecc71;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.forgiveness-message-visible {
+    opacity: 1;
+}
